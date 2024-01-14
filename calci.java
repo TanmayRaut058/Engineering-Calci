@@ -15,8 +15,16 @@ public class calci{
 		return a - b;
 	}
 	
+	public static int mul(){
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		return a * b;
+	}
+	
 	public static void main(String args[]){
 		System.out.println(add());
 		System.out.println(sub());
+		System.out.println(mul());
 	}
 }
