@@ -22,9 +22,33 @@ public class calci{
 		return a * b;
 	}
 	
+	public static int div(){
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		if( b != 0 ){
+		    return a / b;
+		} else {
+		    return -1;
+		}
+	}
+	
+	public static int mod(){
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		if( b != 0 ){
+		    return a % b;
+		} else {
+		    return -1;
+		}
+	}
+	
 	public static void main(String args[]){
 		System.out.println(add());
 		System.out.println(sub());
 		System.out.println(mul());
+		System.out.println(div());
+		System.out.println(mod());
 	}
 }
