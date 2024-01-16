@@ -4,8 +4,14 @@
 <br>
 2 commit. Added sub() function.
 <br>
-3 commit. Addes mul() function.
+3 commit. Added mul() function.
 <br>
-4 commit. Addes div() function.
+4 commit. Added div() function.
 <br>
-5 commit. Addes mod() function.
+5 commit. Added mod() function.
+<br>
+5 commit. Added Square() function.
+<br>
+6 commit. Added Square Root() function.
+<br>
+7 commit. Added Cube() function.
