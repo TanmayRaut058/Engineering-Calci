@@ -1,31 +1,19 @@
 import java.util.*;
+import java.lang.Math;
 public class calci{
-	static Scanner sc = new Scanner(System.in);
-	public static int add(){
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
+	public static int add(int a, int b){
 		return a + b;
 	}
 	
-	public static int sub(){
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
+	public static int sub(int a, int b){
 		return a - b;
 	}
 	
-	public static int mul(){
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
+	public static long mul(int a, int b){
 		return a * b;
 	}
 	
-	public static int div(){
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
+	public static int div(int a, int b){
 		if( b != 0 ){
 		    return a / b;
 		} else {
@@ -33,27 +21,15 @@ public class calci{
 		}
 	}
 	
-	public static int sub(){
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-		return a - b;
-	}
-	
-	public static int square(){
-		int a = sc.nextInt();
-		
+	public static long square(int a){
 		return a * a;
 	}
 	
-	public static int cube(){
-		int a = sc.nextInt();
-		
+	public static int cube(int a){
 		return a * a * a;
 	}
 	
-	public static double sqRoot(){
-		double a = sc.nextDouble();
+	public static double sqRoot(double a){
 		if( a >= 0){
 		     return Math.sqrt(a);
 		} else{
@@ -62,14 +38,15 @@ public class calci{
 		
 	}
 	
+	public static double sin(int a){
+		return Math.sin(a);
+	}
+	
+	public static double cos(int a){
+		return Math.cos(a);
+	}
+	
 	public static void main(String args[]){
-		System.out.println(add());
-		System.out.println(sub());
-		System.out.println(mul());
-		System.out.println(div());
-		System.out.println(mod());
-		System.out.println(square());
-		System.out.println(sqRoot());
-		System.out.println(cube());
+		
 	}
 }
